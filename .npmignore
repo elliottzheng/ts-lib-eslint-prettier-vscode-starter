@@ -5,3 +5,5 @@ lib/
 LICENSE
 README.md
 tsconfig.json
+src/
+test/

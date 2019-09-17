@@ -2,10 +2,7 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "commonjs",
-    "lib": ["esnext", "dom",
-      "dom.iterable",
-      "scripthost"
-    ],
+    "lib": ["dom", "es6", "dom.iterable", "scripthost", "esnext"],
     "declaration": true,
     "outDir": "dist",
     "strict": true,
@@ -18,9 +15,7 @@
 
   },
   "include": [
-    "lib/**/*.ts",
-    "test/**/*.ts",
-     "src/**/*.ts","*.js"
+    "lib/**/*.ts"
   ],
   "exclude": ["node_modules", "dist"]
 }
